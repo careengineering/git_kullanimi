@@ -11,8 +11,6 @@
 # git commit -m "Master1| Başlık eklendi"
 
 # git log
-# son kayıtı görmek için
-# git log -n 1 
 
 # Committe değişiklik yapmak için
 # git add .
@@ -21,7 +19,7 @@
 # Commit mesajını değiştirme
 # git commit --amend -m "Master2|bu amend"
 
-# Commit silmek için 
+#
 #
 #
 #
