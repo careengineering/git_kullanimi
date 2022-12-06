@@ -1,33 +1,36 @@
-# git dosyasını oluşturma
-# git init
+# git init /// git dosyasını oluşturma
 
-# ls -al
-# klasör listeleme
+# ls -al /// klasör listeleme
 
-# Durumu görme
-# git status
+# git status /// Durumu görme
 
-# Ekleme git add.
-# git commit -m "Master1| Başlık eklendi"
+# git commit -m "Master1| Başlık eklendi" /// Ekleme git add.
 
-# git log
+# git log /// tüm commitleri olayları gösterir
+# git log -n 1  /// sondan bir önceki commitleri olayları gösterir
 
 # Committe değişiklik yapmak için
 # git add .
 # git commit --amend
 
-# Commit mesajını değiştirme
-# git commit --amend -m "Master2|bu amend"
+# git commit --amend -m "Master2|bu amend" /// Commit mesajını değiştirme
 
-#
-#
-#
-#
-#
-#
-#
-#
-#
+# git reset --hard f0e8dece19eb2ae1fb07d7a /// commit siler 
+
+# git revert f0e8dece19eb2ae1fb07d7a  /// commit siler 
+
+# git diff 7626330dc31f39782525b8..f0e8dece19eb2a index.md /// bir dosya içinde değişilikleri gösterir
+
+# git branch /// var olan branchları gösterir
+
+# git branch header /// header isimli branch açar
+
+# git checkout header /// header branchına geçer
+
+# git checkout -b footer /// branch oluşturup direk içine geçer
+
+# git branch -D footer  /// branch silme
+
 #
 #
 #
