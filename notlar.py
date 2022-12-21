@@ -31,19 +31,30 @@
 
 # git branch -D footer  /// branch silme
 
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
+# git checkout header //header branch geçildi
+
+# git stash //son committen sonra yapılan tüm değişiklikler kaydedilir
+
+# git stash list //nerde ne eklendiği görülür
+
+# git stash clear //listeyi siler
+
+# git stash pop // en üstteki kaydı bana gerekir
+
+# git stash apply stashid //pop komutunda en sonu getirir ve siler apply eskiyi getirir ama silmez
+
+# git merge header //master branchi içindeyken header ile birleştirmek. tüm commitlerde birleşir
+
+# git merge --squash footer //birleşimi yapar ama commit ister. footer ın commitlerini içeren tek bir commit oluşturur
+# git commit -m "Footer master ile birleştirildi"
+
+# git rebase header //birleşim değil ekleme yapar
+
+# git rebase footer // ekleme yaptı
+
+# git merge --abort //merge işlemini geri alır
+
+# 
 #
 #
 #
